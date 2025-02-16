@@ -1,0 +1,36 @@
+.notfound {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.notcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notmessage {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #666;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notmessage h1 {
+    font-size: 28px;
+    color: #7dffb7;
+}
+
+.notmessage p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.goBack {
+    margin-left: 400px;
+}
