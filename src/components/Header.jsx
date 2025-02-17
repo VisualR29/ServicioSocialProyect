@@ -1,15 +1,16 @@
 import React from 'react';
 import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo">MANAHUIA</div>
+            <div className="logo"><NavLink className="logo" to={'/'}>MANAHUIA</NavLink></div>
             <nav className="nav">
                 <ul className="nav-list">
-                    <li><a href="#home">Estadisticas</a></li>
-                    <li><a href="#about">Plan de acción</a></li>
-                    <li><a href="#services">Sobre nosotros</a></li>
+                    <li><NavLink to={'/'}>Estadisticas</NavLink></li>
+                    <li><NavLink to={'/plan'}>Plan de acción</NavLink></li>
+                    <li><NavLink to={'/nosotros'}>Sobre nosotros</NavLink></li>
                 </ul>
             </nav>
         </header>
