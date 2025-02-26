@@ -5,10 +5,9 @@ const About = () => {
     return (
         <div className='about'>
             <div className="about-container">
-                <h1 className="about-title">Acerca de Nosotros</h1>
+                <h1 className="about-title">Acerca de Manahuia</h1>
                 <p className="about-description">
-                    Somos una empresa dedicada a ofrecer soluciones innovadoras
-                    que impulsan el crecimiento y la eficiencia en distintos sectores.
+                    Manahuia es un proyecto, creado por Alejandra Mtz. con el proposito de combatir la deserción escolar en el estado de Chihuahua.
                 </p>
                 <div className="about-content">
                     <div className="about-section">
@@ -19,7 +18,7 @@ const About = () => {
                         <h3>Visión</h3>
                         <p>Ser reconocidos como líderes en innovación y desarrollo tecnológico.</p>
                     </div>
-                    <div className="about-section">
+                    {/* <div className="about-section">
                         <h3>Valores</h3>
                         <ul className="about-list">
                             <li>Innovación</li>
@@ -27,7 +26,7 @@ const About = () => {
                             <li>Calidad</li>
                             <li>Trabajo en equipo</li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
