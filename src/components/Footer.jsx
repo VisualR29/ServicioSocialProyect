@@ -1,11 +1,9 @@
-import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-content">
-                {/* Sección de Navegación */}
                 <div className="footer-section">
                     <h4>Navegación</h4>
                     <ul>
@@ -16,7 +14,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Sección de Redes Sociales */}
                 <div className="footer-section">
                     <h4>Síguenos</h4>
                     <div className="social-icons">
@@ -26,7 +23,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Sección de Contacto */}
                 <div className="footer-section">
                     <h4>Contacto</h4>
                     <p>Email: contacto@misitio.com</p>
@@ -34,7 +30,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Derechos de autor */}
             <div className="footer-bottom">
                 &copy; 2025 MiSitio. Todos los derechos reservados.
             </div>

@@ -1,13 +1,10 @@
-import React from 'react';
-import '../App.css';
 import CSVReader from '../components/CSVReader';
+import './Home.css';
 
 function Home() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <CSVReader />
-            </header>
+        <div className="home">
+            <CSVReader />
         </div>
     );
 }
