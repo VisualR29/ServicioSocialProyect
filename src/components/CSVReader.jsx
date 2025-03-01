@@ -29,32 +29,6 @@ const CSVReader = () => {
 
     return (
         <div>
-            <h2>Lista de Alumnos</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Institución</th>
-                        <th>Capacitación</th>
-                        <th>Ingresaron</th>
-                        <th>Desertaron</th>
-                        <th>Causa de Deserción</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.map((row, index) => (
-                        <tr key={index}>
-                            <td>{row["Nombre Completo"]}</td>
-                            <td>{row["Institución"]}</td>
-                            <td>{row["Capacitación"]}</td>
-                            <td>{row["Ingresaron"]}</td>
-                            <td>{row["Desertaron"]}</td>
-                            <td>{row["Causa de Deserción"]}</td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
-
             <h2>Estadísticas</h2>
             <p><strong>Total de alumnos ingresados:</strong> {stats.totalIngresaron}</p>
             <p><strong>Total de alumnos desertaron:</strong> {stats.totalDesertaron}</p>

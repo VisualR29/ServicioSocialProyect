@@ -5,7 +5,7 @@ const Plan = () => {
     return (
         <div className='plan'>
             <div className="plan-container">
-                <h1 className="plan-title">Nuestro Plan</h1>
+                <h1 className="plan-title">Estrategias de acción</h1>
                 <p className="plan-description">
                     Nuestra estrategia está enfocada en ofrecer servicios de calidad,
                     adaptándonos a las necesidades de nuestros clientes y promoviendo
