@@ -3,7 +3,7 @@ import './Plan.css';
 
 const Plan = () => {
     return (
-        <div className='plan'>
+        <div className='plan main-container'>
             <div className="plan-container">
                 <h1 className="plan-title">Estrategias de acción</h1>
                 <p className="plan-description">

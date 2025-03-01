@@ -1,9 +1,5 @@
 .plan {
-    background-color: #282c34;
-    min-height: calc(100vh - 48px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .plan-container {
@@ -11,7 +7,6 @@
     padding: 20px;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    color: white;
 }
 
 .plan-title {
@@ -45,5 +40,5 @@
 
 .plan-card h3 {
     margin-bottom: 15px;
-    color: #798dcf;
+    color: #059669;
 }

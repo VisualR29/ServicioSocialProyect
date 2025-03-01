@@ -2,7 +2,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about main-container'>
             <div className="about-container">
                 <h1 className="about-title">Acerca de Manahuia</h1>
                 <p className="about-description">
@@ -17,12 +17,6 @@ const About = () => {
                         <h3>Visión</h3>
                         <p>Para el 2030 crear un futuro donde cada estudiante tenga acceso equitativo a oportunidades educativas, y la deserción escolar sea una problemática superada. Estableciendo un entorno educativo que nutra el potencial de cada estudiante.</p>
                     </div>
-                    {/* <div className='about-section'>
-                        <h3>Objetivos</h3>
-                        <li>
-                            <ul>Contar con </ul>
-                        </li>
-                    </div> */}
                 </div>
             </div>
         </div>
