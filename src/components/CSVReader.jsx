@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Papa from "papaparse";
 import csvFile from "../assets/Base_de_datos_de_alumnos.csv"
 import { alumnosPorCapacitacion, causasDesercion, totalDesertaron, totalIngresaron } from "../utils/dataAnalysis";
+import InstitucionCharts from "./InstitutionCharts";
 
 const CSVReader = () => {
     const [data, setData] = useState([]);

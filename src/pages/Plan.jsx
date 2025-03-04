@@ -1,29 +1,20 @@
-import React from 'react';
-import './Plan.css';
+import BlockText from '../components/BlockText';
+import '../styles/Plan.css';
 
 const Plan = () => {
     return (
-        <div className='plan main-container'>
-            <div className="plan-container">
-                <h1 className="plan-title">Estrategias de acción</h1>
-                <p className="plan-description">
+        <div className='main-container'>
+            <div className="sub-container">
+                <h1 className="title">Estrategias de acción</h1>
+                <p className="description">
                     Nuestra estrategia está enfocada en ofrecer servicios de calidad,
                     adaptándonos a las necesidades de nuestros clientes y promoviendo
                     soluciones innovadoras.
                 </p>
-                <div className="plan-grid">
-                    <div className="plan-card">
-                        <h3>Estrategia 1</h3>
-                        <p>Optimización de recursos para mejorar la eficiencia operativa.</p>
-                    </div>
-                    <div className="plan-card">
-                        <h3>Estrategia 2</h3>
-                        <p>Implementación de tecnologías de vanguardia.</p>
-                    </div>
-                    <div className="plan-card">
-                        <h3>Estrategia 3</h3>
-                        <p>Expansión a nuevos mercados internacionales.</p>
-                    </div>
+                <div className="content">
+                    <BlockText title={"Estrategia 1"} children={"Optimización de recursos para mejorar la eficiencia operativa."} alignLeft={false} />
+                    <BlockText title={"Estrategia 2"} children={"Implementación de tecnologías de vanguardia."} alignLeft={false} />
+                    <BlockText title={"Estrategia 3"} children={"Expansión a nuevos mercados internacionales."} alignLeft={false} />
                 </div>
             </div>
         </div>

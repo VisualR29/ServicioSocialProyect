@@ -1,3 +1,7 @@
+export const listaInstituciones = (data) => {
+    return [...new Set(data.map(row => row["Institución"]).filter(Boolean))];
+}
+
 export const totalIngresaron = (data) => {
     return data.reduce((sum, row) => sum + Number(row["Ingresaron"]), 0);
 };
