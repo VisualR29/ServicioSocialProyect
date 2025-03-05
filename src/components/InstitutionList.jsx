@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Papa from "papaparse";
-import csvFile from '../assets/Base_de_datos_de_al.csv'
+import csvFile from '../assets/Base_de_datos_de_alumnos.csv'
 import { listaInstituciones } from "../utils/dataAnalysis";
-import '../styles/IntitutionList.css'
+import '../styles/InstitutionList.css'
 
 const IntitutionList = () => {
     const [institutions, setInstitutions] = useState([]);
@@ -19,7 +19,7 @@ const IntitutionList = () => {
     }, []);
 
     const handleSelect = (institution) => {
-        navigate(`/int/${encodeURIComponent(institution)}`);
+        navigate(`/ins/${encodeURIComponent(institution)}`);
     };
 
     return (
