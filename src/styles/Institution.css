@@ -1,3 +1,13 @@
+.institution-details {
+    background-color: #282c34;
+    min-height: calc(100vh - 48px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
 .details-header {
     margin-bottom: 20px;
 }
@@ -12,6 +22,14 @@ h2 {
     color: #6c757d;
 }
 
+.analisys-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .data-grid {
     display: flex;
     justify-content: space-around;
@@ -21,7 +39,7 @@ h2 {
 }
 
 .data-card {
-    background: white;
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,14 +51,51 @@ h2 {
 .data-value {
     font-size: 24px;
     font-weight: bold;
-    color: #007bff;
+    color: #059669;
     margin-top: 5px;
 }
 
-.chart-container {
-    background: white;
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.chart-box {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.recommendations {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+}
+
+.recommendations h3 {
+    margin-bottom: 10px;
+}
+
+.recommendations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recommendations li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }

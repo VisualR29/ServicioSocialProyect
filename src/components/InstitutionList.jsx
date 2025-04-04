@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Papa from "papaparse";
-import csvFile from '../assets/Base_de_datos_de_alumnos.csv'
+import csvFile from '../assets/Base_de_datos_de_al.csv'
 import { listaInstituciones } from "../utils/dataAnalysis";
 import '../styles/InstitutionList.css'
 
