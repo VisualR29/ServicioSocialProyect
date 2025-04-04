@@ -1,6 +1,6 @@
 export const listaInstituciones = (data) => {
     return [...new Set(data.map(row => row["Institución"]).filter(Boolean))];
-}
+};
 
 export const totalIngresaron = (data) => {
     return data.reduce((sum, row) => sum + Number(row["Ingresaron"]), 0);
@@ -8,6 +8,20 @@ export const totalIngresaron = (data) => {
 
 export const totalDesertaron = (data) => {
     return data.reduce((sum, row) => sum + Number(row["Desertaron"]), 0);
+};
+
+export const porcentajeDesercionTotal = (data) => {
+    const ingresaron = totalIngresaron(data);
+    const desertaron = totalDesertaron(data);
+    return ingresaron > 0 ? ((desertaron / ingresaron) * 100).toFixed(2) + "%" : "0%";
+};
+
+export const totalInstituciones = (data) => {
+    return new Set(data.map(row => row["Institución"])).size;
+};
+
+export const totalCapacitaciones = (data) => {
+    return new Set(data.map(row => row["Capacitación"])).size;
 };
 
 export const alumnosPorCapacitacion = (data) => {
@@ -26,13 +40,6 @@ export const causasDesercion = (data) => {
     }, {});
 };
 
-export const porcentajeDesercionTotal = (data) => {
-    const totalIngresaron = data.reduce((sum, row) => sum + Number(row["Ingresaron"]), 0);
-    const totalDesertaron = data.reduce((sum, row) => sum + Number(row["Desertaron"]), 0);
-
-    return totalIngresaron > 0 ? ((totalDesertaron / totalIngresaron) * 100).toFixed(2) + "%" : "0%";
-};
-
 export const desertoresPorInstitucion = (data) => {
     return data.reduce((acc, row) => {
         if (Number(row["Desertaron"]) === 1) {
@@ -46,7 +53,7 @@ export const desertoresPorInstitucionYCapacitacion = (data) => {
     return data.reduce((acc, row) => {
         if (Number(row["Desertaron"]) === 1) {
             if (!acc[row["Institución"]]) {
-                acc[row["Institución"]] = {}; 
+                acc[row["Institución"]] = {};
             }
             acc[row["Institución"]][row["Capacitación"]] =
                 (acc[row["Institución"]][row["Capacitación"]] || 0) + 1;

@@ -9,7 +9,7 @@ import {
     porcentajeDesercionTotal,
     causasDesercion
 } from "../utils/dataAnalysis";
-import csvFile from '../assets/Base_de_datos_de_alumnos.csv';
+import csvFile from '../assets/Base_de_datos_de_al.csv';
 import "../styles/Institution.css";
 
 const Institution = () => {
