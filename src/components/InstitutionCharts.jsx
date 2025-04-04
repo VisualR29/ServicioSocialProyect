@@ -12,7 +12,7 @@ const InstitucionCharts = ({ data }) => {
 
     return (
         <div>
-            <h3>Desertores por Capacitación</h3>
+            <h3>Bajas por Capacitación</h3>
             <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={chartData}>
                     <XAxis dataKey="name" />

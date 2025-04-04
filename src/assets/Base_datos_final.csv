@@ -1,0 +1,1562 @@
+Nombre Completo,Institución,Capacitación,Ingresaron,Desertaron,Causa de Deserción,Turno
+Alumno 1,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 2,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 3,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 4,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 5,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 6,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 7,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 8,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 9,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 10,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 11,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 12,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 13,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 14,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 15,Bachilleres SEA,Programación,1,1,No continúa,General
+Alumno 16,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 17,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 18,Bachilleres SEA,TICs,1,1,Problemas familiares,General
+Alumno 19,Bachilleres SEA,Programación,1,1,Problemas familiares,General
+Alumno 20,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 21,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 22,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 23,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 24,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 25,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 26,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 27,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 28,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 29,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 30,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 31,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 32,Bachilleres SEA,TICs,1,1,No continúa,General
+Alumno 33,Bachilleres SEA,Salud,1,1,No continúa,General
+Alumno 34,Bachilleres SEA,Emprendimiento,1,1,No continúa,General
+Alumno 35,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 36,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 37,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 38,Bachilleres SEA,Programación,1,1,No continúa,General
+Alumno 39,Bachilleres SEA,Salud,1,1,No continúa,General
+Alumno 40,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 41,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 42,Bachilleres SEA,Emprendimiento,1,1,Problemas familiares,General
+Alumno 43,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 44,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 45,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 46,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 47,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 48,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 49,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 50,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 51,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 52,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 53,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 54,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 55,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 56,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 57,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 58,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 59,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 60,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 61,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 62,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 63,Bachilleres SEA,Programación,1,0,No aplica,General
+Alumno 64,Bachilleres SEA,Salud,1,0,No aplica,General
+Alumno 65,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 66,Bachilleres SEA,Emprendimiento,1,0,No aplica,General
+Alumno 67,Bachilleres SEA,TICs,1,0,No aplica,General
+Alumno 68,Bachilleres SEA,Programación,1,1,Solo baja,General
+Alumno 69,Bachilleres SEA,Emprendimiento,1,1,Problemas familiares,General
+Alumno 70,Bachilleres SEA,TICs,1,1,Problemas familiares,General
+Alumno 1,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 2,CECYT 19,Electromecánica,1,1,Problemas familiares,Matutino
+Alumno 3,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 4,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 5,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 6,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 7,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 8,CECYT 19,Producción Industrial,1,1,No aplica,Matutino
+Alumno 9,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 10,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 11,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 12,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 13,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 14,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 15,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 16,CECYT 19,Producción Industrial,1,1,Problemas económicos,Matutino
+Alumno 17,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 18,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 19,CECYT 19,Electromecánica,1,1,Solo baja,Matutino
+Alumno 20,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 21,CECYT 19,Producción Industrial,1,1,Se cambió de institución,Matutino
+Alumno 22,CECYT 19,Electromecánica,1,1,No continúa,Matutino
+Alumno 23,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 24,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 25,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 26,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 27,CECYT 19,Producción Industrial,1,1,Problemas económicos,Matutino
+Alumno 28,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 29,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 30,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 31,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 32,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 33,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 34,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 35,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 36,CECYT 19,Producción Industrial,1,1,No aplica,Matutino
+Alumno 37,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 38,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 39,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 40,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 41,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 42,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 43,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 44,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 45,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 46,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 47,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 48,CECYT 19,Electromecánica,1,1,Problemas económicos,Matutino
+Alumno 49,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 50,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 51,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 52,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 53,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 54,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 55,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 56,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 57,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 58,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 59,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 60,CECYT 19,Producción Industrial,1,1,No aplica,Matutino
+Alumno 61,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 62,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 63,CECYT 19,Producción Industrial,1,1,Se cambió de institución,Matutino
+Alumno 64,CECYT 19,Electromecánica,1,1,Solo baja,Matutino
+Alumno 65,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 66,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 67,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 68,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 69,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 70,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 71,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 72,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 73,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 74,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 75,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 76,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 77,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 78,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 79,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 80,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 81,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 82,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 83,CECYT 19,Electromecánica,1,1,No aplica,Matutino
+Alumno 84,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 85,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 86,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 87,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 88,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 89,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 90,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 91,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 92,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 93,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 94,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 95,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 96,CECYT 19,Electromecánica,1,1,No continúa,Matutino
+Alumno 97,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 98,CECYT 19,Electromecánica,1,1,Causa legal,Matutino
+Alumno 99,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 100,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 101,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 102,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 103,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 104,CECYT 19,Electromecánica,1,1,Problemas económicos,Matutino
+Alumno 105,CECYT 19,Producción Industrial,1,1,Problemas familiares,Matutino
+Alumno 106,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 107,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 108,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 109,CECYT 19,Electromecánica,1,1,Se cambió de institución,Matutino
+Alumno 110,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 111,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 112,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 113,CECYT 19,Producción Industrial,1,1,Solo baja,Matutino
+Alumno 114,CECYT 19,Producción Industrial,1,1,Problemas familiares,Matutino
+Alumno 115,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 116,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 117,CECYT 19,Electromecánica,1,1,Problemas familiares,Matutino
+Alumno 118,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 119,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 120,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 121,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 122,CECYT 19,Electromecánica,1,1,Problemas familiares,Matutino
+Alumno 123,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 124,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 125,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 126,CECYT 19,Producción Industrial,1,1,Problemas económicos,Matutino
+Alumno 127,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 128,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 129,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 130,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 131,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 132,CECYT 19,Electromecánica,1,1,Se cambió de institución,Matutino
+Alumno 133,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 134,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 135,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 136,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 137,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 138,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 139,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 140,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 141,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Matutino
+Alumno 142,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 143,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 144,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Matutino
+Alumno 145,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 146,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 147,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 148,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 149,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 150,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Matutino
+Alumno 151,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 152,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 153,CECYT 19,Producción Industrial,1,0,No aplica,Matutino
+Alumno 154,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 155,CECYT 19,Electromecánica,1,0,No aplica,Matutino
+Alumno 156,CECYT 19,Electromecánica,1,1,Problemas familiares,Matutino
+Alumno 1,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 2,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 3,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 4,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 5,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 6,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 7,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 8,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 9,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 10,CECYT 19,Electromecánica,1,1,Problemas familiares,Vespertino
+Alumno 11,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 12,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 13,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 14,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 15,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 16,CECYT 19,Electromecánica,1,1,No aplica,Vespertino
+Alumno 17,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 18,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 19,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 20,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 21,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 22,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 23,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 24,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 25,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 26,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 27,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 28,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 29,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 30,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 31,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 32,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 33,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 34,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 35,CECYT 19,Producción Industrial,1,1,Se cambió de institución,Vespertino
+Alumno 36,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 37,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 38,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 39,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 40,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 41,CECYT 19,Electromecánica,1,1,No continúa,Vespertino
+Alumno 42,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 43,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 44,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 45,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 46,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 47,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 48,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 49,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 50,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 51,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 52,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 53,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 54,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 55,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 56,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 57,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 58,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 59,CECYT 19,Producción Industrial,1,1,No continúa,Vespertino
+Alumno 60,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Vespertino
+Alumno 61,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 62,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 63,CECYT 19,Electromecánica,1,1,Problemas económicos,Vespertino
+Alumno 64,CECYT 19,Producción Industrial,1,1,No continúa,Vespertino
+Alumno 65,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 66,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 67,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 68,CECYT 19,Producción Industrial,1,1,Solo baja,Vespertino
+Alumno 69,CECYT 19,Producción Industrial,1,1,Solo baja,Vespertino
+Alumno 70,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Vespertino
+Alumno 71,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 72,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 73,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 74,CECYT 19,Electromecánica,1,1,Causa legal,Vespertino
+Alumno 75,CECYT 19,Producción Industrial,1,1,Se cambió de institución,Vespertino
+Alumno 76,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 77,CECYT 19,Electromecánica,1,1,Solo baja,Vespertino
+Alumno 78,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 79,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 80,CECYT 19,Electromecánica,1,1,No aplica,Vespertino
+Alumno 81,CECYT 19,Producción Industrial,1,1,No aplica,Vespertino
+Alumno 82,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Vespertino
+Alumno 83,CECYT 19,Producción Industrial,1,1,Se cambió de institución,Vespertino
+Alumno 84,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 85,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 86,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 87,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 88,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 89,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 90,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 91,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 92,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 93,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 94,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 95,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 96,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 97,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 98,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 99,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 100,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 101,CECYT 19,Electromecánica,1,1,No aplica,Vespertino
+Alumno 102,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 103,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 104,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 105,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 106,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 107,CECYT 19,Electromecánica,1,1,Se salió para trabajar,Vespertino
+Alumno 108,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 109,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 110,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 111,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 112,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 113,CECYT 19,Producción Industrial,1,1,No aplica,Vespertino
+Alumno 114,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 115,CECYT 19,Electromecánica,1,1,Solo baja,Vespertino
+Alumno 116,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 117,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 118,CECYT 19,Producción Industrial,1,1,Solo baja,Vespertino
+Alumno 119,CECYT 19,Electromecánica,1,1,No aplica,Vespertino
+Alumno 120,CECYT 19,Electromecánica,1,1,Solo baja,Vespertino
+Alumno 121,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 122,CECYT 19,Electromecánica,1,1,No continúa,Vespertino
+Alumno 123,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 124,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 125,CECYT 19,Electromecánica,1,0,No aplica,Vespertino
+Alumno 126,CECYT 19,Producción Industrial,1,1,Se salió para trabajar,Vespertino
+Alumno 127,CECYT 19,Electromecánica,1,1,Se cambió de institución,Vespertino
+Alumno 128,CECYT 19,Producción Industrial,1,1,No aplica,Vespertino
+Alumno 129,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 130,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 131,CECYT 19,Producción Industrial,1,0,No aplica,Vespertino
+Alumno 1,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 2,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 3,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 4,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 5,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 6,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 7,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 8,CECYT 6,Logística,1,1,Solo baja,Matutino
+Alumno 9,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 10,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 11,CECYT 6,Logística,1,1,Se cambió de institución,Matutino
+Alumno 12,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 13,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 14,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 15,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 16,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 17,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 18,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 19,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 20,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 21,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 22,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 23,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 24,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 25,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 26,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 27,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 28,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 29,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 30,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 31,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 32,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 33,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 34,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 35,CECYT 6,Logística,1,1,Problemas económicos,Matutino
+Alumno 36,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 37,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 38,CECYT 6,Logística,1,1,Problemas familiares,Matutino
+Alumno 39,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 40,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 41,CECYT 6,Logística,1,1,Problemas familiares,Matutino
+Alumno 42,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 43,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 44,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 45,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 46,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 47,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 48,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 49,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 50,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 51,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 52,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 53,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 54,CECYT 6,Logística,1,1,Se salió para trabajar,Matutino
+Alumno 55,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 56,CECYT 6,Logística,1,1,Se cambió de institución,Matutino
+Alumno 57,CECYT 6,Logística,1,1,Problemas familiares,Matutino
+Alumno 58,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 59,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 60,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 61,CECYT 6,Logística,1,1,No aplica,Matutino
+Alumno 62,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 63,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 64,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 65,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 66,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 67,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 68,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 69,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 70,CECYT 6,Logística,1,1,No aplica,Matutino
+Alumno 71,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 72,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 73,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 74,CECYT 6,Logística,1,1,Se salió para trabajar,Matutino
+Alumno 75,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 76,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 77,CECYT 6,Logística,1,1,Se salió para trabajar,Matutino
+Alumno 78,CECYT 6,Logística,1,1,No aplica,Matutino
+Alumno 79,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 80,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 81,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 82,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 83,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 84,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 85,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 86,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 87,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 88,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 89,CECYT 6,Logística,1,1,No aplica,Matutino
+Alumno 90,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 91,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 92,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 93,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 94,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 95,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 96,CECYT 6,Logística,1,1,Solo baja,Matutino
+Alumno 97,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 98,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 99,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 100,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 101,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 102,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 103,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 104,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 105,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 106,CECYT 6,Logística,1,1,Problemas económicos,Matutino
+Alumno 107,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 108,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 109,CECYT 6,Logística,1,1,No continúa,Matutino
+Alumno 110,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 111,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 112,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 113,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 114,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 115,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 116,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 117,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 118,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 119,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 120,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 121,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 122,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 123,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 124,CECYT 6,Logística,1,1,No aplica,Matutino
+Alumno 125,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 126,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 127,CECYT 6,Logística,1,1,Se cambió de institución,Matutino
+Alumno 128,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 129,CECYT 6,Logística,1,1,Se cambió de institución,Matutino
+Alumno 130,CECYT 6,Logística,1,0,No aplica,Matutino
+Alumno 131,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 132,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 133,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 134,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 135,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 136,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 137,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 138,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 139,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 140,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 141,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 142,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 143,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 144,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 145,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 146,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 147,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 148,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 149,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 150,CECYT 6,Programación,1,1,Problemas familiares,Matutino
+Alumno 151,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 152,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 153,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 154,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 155,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 156,CECYT 6,Programación,1,1,Problemas económicos,Matutino
+Alumno 157,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 158,CECYT 6,Programación,1,1,Se salió para trabajar,Matutino
+Alumno 159,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 160,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 161,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 162,CECYT 6,Programación,1,1,Problemas económicos,Matutino
+Alumno 163,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 164,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 165,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 166,CECYT 6,Programación,1,1,Problemas económicos,Matutino
+Alumno 167,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 168,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 169,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 170,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 171,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 172,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 173,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 174,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 175,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 176,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 177,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 178,CECYT 6,Programación,1,1,Se salió para trabajar,Matutino
+Alumno 179,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 180,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 181,CECYT 6,Programación,1,1,Se cambió de institución,Matutino
+Alumno 182,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 183,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 184,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 185,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 186,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 187,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 188,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 189,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 190,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 191,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 192,CECYT 6,Programación,1,1,Se cambió de institución,Matutino
+Alumno 193,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 194,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 195,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 196,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 197,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 198,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 199,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 200,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 201,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 202,CECYT 6,Programación,1,1,Problemas económicos,Matutino
+Alumno 203,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 204,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 205,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 206,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 207,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 208,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 209,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 210,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 211,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 212,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 213,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 214,CECYT 6,Programación,1,1,Problemas familiares,Matutino
+Alumno 215,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 216,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 217,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 218,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 219,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 220,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 221,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 222,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 223,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 224,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 225,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 226,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 227,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 228,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 229,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 230,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 231,CECYT 6,Programación,1,1,Solo baja,Matutino
+Alumno 232,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 233,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 234,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 235,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 236,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 237,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 238,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 239,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 240,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 241,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 242,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 243,CECYT 6,Programación,1,1,No aplica,Matutino
+Alumno 244,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 245,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 246,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 247,CECYT 6,Programación,1,1,No continúa,Matutino
+Alumno 248,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 249,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 250,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 251,CECYT 6,Programación,1,0,No aplica,Matutino
+Alumno 252,CECYT 6,Programación,1,1,Problemas familiares,Matutino
+Alumno 253,CECYT 6,Programación,1,1,Problemas familiares,Matutino
+Alumno 254,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Matutino
+Alumno 255,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 256,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 257,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 258,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 259,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 260,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Matutino
+Alumno 261,CECYT 6,Máquinas y Herramientas,1,1,Solo baja,Matutino
+Alumno 262,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 263,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 264,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 265,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 266,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Matutino
+Alumno 267,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 268,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Matutino
+Alumno 269,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 270,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 271,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 272,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 273,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 274,CECYT 6,Máquinas y Herramientas,1,1,Problemas económicos,Matutino
+Alumno 275,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 276,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 277,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 278,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 279,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 280,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 281,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 282,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 283,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 284,CECYT 6,Máquinas y Herramientas,1,1,No continúa,Matutino
+Alumno 285,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 286,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 287,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 288,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Matutino
+Alumno 289,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Matutino
+Alumno 290,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 291,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 292,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 293,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 294,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 295,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 296,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 297,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 298,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 299,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 300,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 301,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 302,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 303,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 304,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 305,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 306,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Matutino
+Alumno 307,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 308,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 309,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 310,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 311,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 312,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 313,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 314,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 315,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Matutino
+Alumno 316,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 317,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 318,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 319,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 320,CECYT 6,Máquinas y Herramientas,1,1,Problemas económicos,Matutino
+Alumno 321,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Matutino
+Alumno 322,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Matutino
+Alumno 323,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 324,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Matutino
+Alumno 325,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 326,CECYT 6,Máquinas y Herramientas,1,1,Solo baja,Matutino
+Alumno 327,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Matutino
+Alumno 328,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 329,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 330,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 331,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 332,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 333,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 334,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Matutino
+Alumno 335,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 336,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 337,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 338,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 339,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 340,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 341,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 342,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 343,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 344,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 345,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 346,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 347,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 348,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 349,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 350,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 351,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 352,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 353,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 354,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Matutino
+Alumno 355,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 356,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 357,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 358,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 359,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 360,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 361,CECYT 6,Electrónica,1,1,Problemas familiares,Matutino
+Alumno 362,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 363,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 364,CECYT 6,Electrónica,1,1,No aplica,Matutino
+Alumno 365,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 366,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 367,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 368,CECYT 6,Electrónica,1,1,Se salió para trabajar,Matutino
+Alumno 369,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 370,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 371,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 372,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 373,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 374,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 375,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 376,CECYT 6,Electrónica,1,1,Se cambió de institución,Matutino
+Alumno 377,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 378,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 379,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 380,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 381,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 382,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 383,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 384,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 385,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 386,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 387,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 388,CECYT 6,Electrónica,1,1,No aplica,Matutino
+Alumno 389,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 390,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 391,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 392,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 393,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 394,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 395,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 396,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 397,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 398,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 399,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 400,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 401,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 402,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 403,CECYT 6,Electrónica,1,1,Se salió para trabajar,Matutino
+Alumno 404,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 405,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 406,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 407,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 408,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 409,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 410,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 411,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 412,CECYT 6,Electrónica,1,1,Se cambió de institución,Matutino
+Alumno 413,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 414,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 415,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 416,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 417,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 418,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 419,CECYT 6,Electrónica,1,1,Problemas económicos,Matutino
+Alumno 420,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 421,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 422,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 423,CECYT 6,Electrónica,1,1,Problemas familiares,Matutino
+Alumno 424,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 425,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 426,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 427,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 428,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 429,CECYT 6,Electrónica,1,1,No continúa,Matutino
+Alumno 430,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 431,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 432,CECYT 6,Electrónica,1,1,Se salió para trabajar,Matutino
+Alumno 433,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 434,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 435,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 436,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 437,CECYT 6,Electrónica,1,1,Se salió para trabajar,Matutino
+Alumno 438,CECYT 6,Electrónica,1,1,Problemas económicos,Matutino
+Alumno 439,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 440,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 441,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 442,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 443,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 444,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 445,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 446,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 447,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 448,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 449,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 450,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 451,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 452,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 453,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 454,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 455,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 456,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 457,CECYT 6,Electrónica,1,1,Problemas económicos,Matutino
+Alumno 458,CECYT 6,Electrónica,1,1,No aplica,Matutino
+Alumno 459,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 460,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 461,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 462,CECYT 6,Electrónica,1,1,Solo baja,Matutino
+Alumno 463,CECYT 6,Electrónica,1,1,Problemas económicos,Matutino
+Alumno 464,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 465,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 466,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 467,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 468,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 469,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 470,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 471,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 472,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 473,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 474,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 475,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 476,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 477,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 478,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 479,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 480,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 481,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 482,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 483,CECYT 6,Electrónica,1,0,No aplica,Matutino
+Alumno 484,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 485,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 486,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 487,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Matutino
+Alumno 488,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 489,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 490,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 491,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 492,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Matutino
+Alumno 493,CECYT 6,Soporte y Mantenimiento,1,1,No aplica,Matutino
+Alumno 494,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 495,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 496,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 497,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 498,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 499,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 500,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Matutino
+Alumno 501,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 502,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 503,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 504,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 505,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 506,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Matutino
+Alumno 507,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 508,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 509,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 510,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 511,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 512,CECYT 6,Soporte y Mantenimiento,1,1,Causa legal,Matutino
+Alumno 513,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 514,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 515,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 516,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 517,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 518,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 519,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 520,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 521,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 522,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 523,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 524,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 525,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 526,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 527,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 528,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 529,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 530,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 531,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 532,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Matutino
+Alumno 533,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 534,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 535,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 536,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 537,CECYT 6,Soporte y Mantenimiento,1,1,Causa legal,Matutino
+Alumno 538,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 539,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Matutino
+Alumno 540,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 541,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 542,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 543,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 544,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 545,CECYT 6,Soporte y Mantenimiento,1,1,Problemas familiares,Matutino
+Alumno 546,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 547,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 548,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 549,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 550,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Matutino
+Alumno 551,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 552,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 553,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 554,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 555,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 556,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 557,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 558,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 559,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 560,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Matutino
+Alumno 561,CECYT 6,Soporte y Mantenimiento,1,1,No continúa,Matutino
+Alumno 562,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 563,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 564,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Matutino
+Alumno 565,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 566,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 567,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 568,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 569,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 570,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Matutino
+Alumno 571,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 572,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 573,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 574,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 575,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 576,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 577,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 578,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 579,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 580,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 581,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 582,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 583,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 584,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 585,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 586,CECYT 6,Soporte y Mantenimiento,1,1,No continúa,Matutino
+Alumno 587,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Matutino
+Alumno 588,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 589,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 590,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 591,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 592,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 593,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Matutino
+Alumno 594,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 595,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 596,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 597,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 598,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 599,CECYT 6,Soporte y Mantenimiento,1,1,Problemas familiares,Matutino
+Alumno 600,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 601,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 602,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 603,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 604,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 605,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 606,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 607,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Matutino
+Alumno 608,CECYT 6,Soporte y Mantenimiento,1,1,Problemas familiares,Matutino
+Alumno 609,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 610,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 611,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 612,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 613,CECYT 6,Soporte y Mantenimiento,1,1,No aplica,Matutino
+Alumno 614,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 615,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Matutino
+Alumno 1,CECYT 6,Soporte y Mantenimiento,1,1,Problemas familiares,Vespertino
+Alumno 2,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 3,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 4,CECYT 6,Programación,1,1,No continúa,Vespertino
+Alumno 5,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 6,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 7,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 8,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 9,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 10,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 11,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 12,CECYT 6,Electrónica,1,1,No continúa,Vespertino
+Alumno 13,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 14,CECYT 6,Electrónica,1,1,Problemas familiares,Vespertino
+Alumno 15,CECYT 6,Programación,1,1,Problemas económicos,Vespertino
+Alumno 16,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 17,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 18,CECYT 6,Electrónica,1,1,Se salió para trabajar,Vespertino
+Alumno 19,CECYT 6,Electrónica,1,1,No continúa,Vespertino
+Alumno 20,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 21,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 22,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 23,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 24,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 25,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 26,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 27,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 28,CECYT 6,Logística,1,1,Causa legal,Vespertino
+Alumno 29,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 30,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 31,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 32,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 33,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 34,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 35,CECYT 6,Logística,1,1,Se cambió de institución,Vespertino
+Alumno 36,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 37,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 38,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 39,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 40,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 41,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 42,CECYT 6,Programación,1,1,Se cambió de institución,Vespertino
+Alumno 43,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 44,CECYT 6,Soporte y Mantenimiento,1,1,No continúa,Vespertino
+Alumno 45,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 46,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 47,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 48,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 49,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 50,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 51,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 52,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 53,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 54,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 55,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 56,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 57,CECYT 6,Electrónica,1,1,Problemas familiares,Vespertino
+Alumno 58,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 59,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 60,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 61,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 62,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 63,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 64,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 65,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 66,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Vespertino
+Alumno 67,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 68,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 69,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 70,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 71,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 72,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 73,CECYT 6,Logística,1,1,Problemas económicos,Vespertino
+Alumno 74,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 75,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 76,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 77,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 78,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 79,CECYT 6,Soporte y Mantenimiento,1,1,No aplica,Vespertino
+Alumno 80,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 81,CECYT 6,Logística,1,1,Se cambió de institución,Vespertino
+Alumno 82,CECYT 6,Logística,1,1,Se salió para trabajar,Vespertino
+Alumno 83,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 84,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 85,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 86,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 87,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 88,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 89,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 90,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 91,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 92,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 93,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 94,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 95,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 96,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 97,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 98,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 99,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 100,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 101,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 102,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 103,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 104,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 105,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 106,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 107,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 108,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 109,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 110,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 111,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 112,CECYT 6,Soporte y Mantenimiento,1,1,Problemas familiares,Vespertino
+Alumno 113,CECYT 6,Soporte y Mantenimiento,1,1,No aplica,Vespertino
+Alumno 114,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 115,CECYT 6,Máquinas y Herramientas,1,1,Problemas económicos,Vespertino
+Alumno 116,CECYT 6,Logística,1,1,No continúa,Vespertino
+Alumno 117,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 118,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 119,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 120,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 121,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Vespertino
+Alumno 122,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Vespertino
+Alumno 123,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 124,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 125,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 126,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 127,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 128,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 129,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 130,CECYT 6,Programación,1,1,No aplica,Vespertino
+Alumno 131,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 132,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 133,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Vespertino
+Alumno 134,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 135,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 136,CECYT 6,Programación,1,1,No aplica,Vespertino
+Alumno 137,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 138,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 139,CECYT 6,Programación,1,1,No continúa,Vespertino
+Alumno 140,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 141,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 142,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 143,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 144,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 145,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 146,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 147,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 148,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 149,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 150,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 151,CECYT 6,Máquinas y Herramientas,1,1,Causa legal,Vespertino
+Alumno 152,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 153,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 154,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 155,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 156,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 157,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 158,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 159,CECYT 6,Programación,1,1,No continúa,Vespertino
+Alumno 160,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 161,CECYT 6,Máquinas y Herramientas,1,1,No continúa,Vespertino
+Alumno 162,CECYT 6,Logística,1,1,Problemas familiares,Vespertino
+Alumno 163,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 164,CECYT 6,Electrónica,1,1,Se salió para trabajar,Vespertino
+Alumno 165,CECYT 6,Programación,1,1,Problemas familiares,Vespertino
+Alumno 166,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 167,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 168,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 169,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 170,CECYT 6,Logística,1,1,Problemas económicos,Vespertino
+Alumno 171,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 172,CECYT 6,Programación,1,1,Problemas económicos,Vespertino
+Alumno 173,CECYT 6,Logística,1,1,No continúa,Vespertino
+Alumno 174,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 175,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Vespertino
+Alumno 176,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 177,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 178,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 179,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 180,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 181,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 182,CECYT 6,Soporte y Mantenimiento,1,1,No continúa,Vespertino
+Alumno 183,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 184,CECYT 6,Logística,1,1,Causa legal,Vespertino
+Alumno 185,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 186,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 187,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 188,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 189,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 190,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 191,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 192,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 193,CECYT 6,Logística,1,1,Problemas familiares,Vespertino
+Alumno 194,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 195,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 196,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 197,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 198,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 199,CECYT 6,Programación,1,1,Problemas familiares,Vespertino
+Alumno 200,CECYT 6,Máquinas y Herramientas,1,1,Problemas económicos,Vespertino
+Alumno 201,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 202,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 203,CECYT 6,Programación,1,1,No aplica,Vespertino
+Alumno 204,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 205,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 206,CECYT 6,Electrónica,1,1,No continúa,Vespertino
+Alumno 207,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 208,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 209,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 210,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 211,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 212,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 213,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 214,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 215,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 216,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 217,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 218,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 219,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 220,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 221,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 222,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 223,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 224,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 225,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 226,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 227,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 228,CECYT 6,Electrónica,1,1,Causa legal,Vespertino
+Alumno 229,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 230,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 231,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 232,CECYT 6,Logística,1,1,Problemas familiares,Vespertino
+Alumno 233,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 234,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Vespertino
+Alumno 235,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 236,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 237,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 238,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 239,CECYT 6,Programación,1,1,Solo baja,Vespertino
+Alumno 240,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 241,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 242,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 243,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 244,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 245,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 246,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 247,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 248,CECYT 6,Programación,1,1,Problemas económicos,Vespertino
+Alumno 249,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 250,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 251,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 252,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 253,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 254,CECYT 6,Electrónica,1,1,Problemas familiares,Vespertino
+Alumno 255,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 256,CECYT 6,Logística,1,1,Se salió para trabajar,Vespertino
+Alumno 257,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 258,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 259,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 260,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 261,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 262,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 263,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 264,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 265,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 266,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 267,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 268,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 269,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 270,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 271,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 272,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 273,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 274,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 275,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 276,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 277,CECYT 6,Electrónica,1,1,Se cambió de institución,Vespertino
+Alumno 278,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 279,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 280,CECYT 6,Electrónica,1,1,No aplica,Vespertino
+Alumno 281,CECYT 6,Máquinas y Herramientas,1,1,Solo baja,Vespertino
+Alumno 282,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 283,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 284,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 285,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 286,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 287,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 288,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 289,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 290,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 291,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 292,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Vespertino
+Alumno 293,CECYT 6,Logística,1,1,Causa legal,Vespertino
+Alumno 294,CECYT 6,Logística,1,1,Se cambió de institución,Vespertino
+Alumno 295,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 296,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 297,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 298,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 299,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 300,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 301,CECYT 6,Logística,1,1,Solo baja,Vespertino
+Alumno 302,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 303,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 304,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 305,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 306,CECYT 6,Logística,1,1,No aplica,Vespertino
+Alumno 307,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 308,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 309,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 310,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 311,CECYT 6,Soporte y Mantenimiento,1,1,Causa legal,Vespertino
+Alumno 312,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 313,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 314,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 315,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 316,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 317,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 318,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 319,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 320,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 321,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 322,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 323,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 324,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 325,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 326,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 327,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 328,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 329,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 330,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 331,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 332,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 333,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 334,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 335,CECYT 6,Logística,1,1,Se salió para trabajar,Vespertino
+Alumno 336,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 337,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 338,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 339,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 340,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 341,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 342,CECYT 6,Logística,1,1,Solo baja,Vespertino
+Alumno 343,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 344,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 345,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 346,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Vespertino
+Alumno 347,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 348,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 349,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 350,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 351,CECYT 6,Logística,1,1,Problemas familiares,Vespertino
+Alumno 352,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 353,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 354,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 355,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 356,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 357,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 358,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 359,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 360,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 361,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 362,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 363,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 364,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 365,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 366,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 367,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 368,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 369,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 370,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 371,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 372,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 373,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 374,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 375,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 376,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 377,CECYT 6,Electrónica,1,1,No aplica,Vespertino
+Alumno 378,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 379,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 380,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 381,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 382,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 383,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 384,CECYT 6,Programación,1,1,Se cambió de institución,Vespertino
+Alumno 385,CECYT 6,Soporte y Mantenimiento,1,1,Se salió para trabajar,Vespertino
+Alumno 386,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 387,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 388,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 389,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 390,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 391,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 392,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 393,CECYT 6,Máquinas y Herramientas,1,1,Solo baja,Vespertino
+Alumno 394,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 395,CECYT 6,Electrónica,1,1,No continúa,Vespertino
+Alumno 396,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 397,CECYT 6,Logística,1,1,Problemas económicos,Vespertino
+Alumno 398,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 399,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 400,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 401,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 402,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 403,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 404,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 405,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 406,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 407,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 408,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 409,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 410,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 411,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 412,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 413,CECYT 6,Soporte y Mantenimiento,1,1,No continúa,Vespertino
+Alumno 414,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 415,CECYT 6,Logística,1,1,Solo baja,Vespertino
+Alumno 416,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 417,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 418,CECYT 6,Logística,1,1,Solo baja,Vespertino
+Alumno 419,CECYT 6,Electrónica,1,1,Problemas familiares,Vespertino
+Alumno 420,CECYT 6,Soporte y Mantenimiento,1,1,Solo baja,Vespertino
+Alumno 421,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 422,CECYT 6,Máquinas y Herramientas,1,1,Problemas familiares,Vespertino
+Alumno 423,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Vespertino
+Alumno 424,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 425,CECYT 6,Logística,1,1,Solo baja,Vespertino
+Alumno 426,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 427,CECYT 6,Programación,1,1,Se cambió de institución,Vespertino
+Alumno 428,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 429,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 430,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 431,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 432,CECYT 6,Electrónica,1,1,Problemas económicos,Vespertino
+Alumno 433,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 434,CECYT 6,Electrónica,1,1,Solo baja,Vespertino
+Alumno 435,CECYT 6,Máquinas y Herramientas,1,1,No aplica,Vespertino
+Alumno 436,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 437,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 438,CECYT 6,Logística,1,1,Se cambió de institución,Vespertino
+Alumno 439,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 440,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 441,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Vespertino
+Alumno 442,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 443,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 444,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 445,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 446,CECYT 6,Programación,1,1,Problemas familiares,Vespertino
+Alumno 447,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 448,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 449,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 450,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 451,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 452,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 453,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 454,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 455,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 456,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 457,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 458,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 459,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 460,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 461,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 462,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 463,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 464,CECYT 6,Soporte y Mantenimiento,1,1,Se cambió de institución,Vespertino
+Alumno 465,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 466,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 467,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 468,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 469,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 470,CECYT 6,Máquinas y Herramientas,1,1,Solo baja,Vespertino
+Alumno 471,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 472,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 473,CECYT 6,Programación,1,1,Se salió para trabajar,Vespertino
+Alumno 474,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 475,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 476,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 477,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 478,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 479,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 480,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 481,CECYT 6,Electrónica,1,1,Problemas familiares,Vespertino
+Alumno 482,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 483,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 484,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 485,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 486,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 487,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 488,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 489,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 490,CECYT 6,Programación,1,1,Se cambió de institución,Vespertino
+Alumno 491,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 492,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 493,CECYT 6,Logística,1,1,No aplica,Vespertino
+Alumno 494,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 495,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 496,CECYT 6,Electrónica,1,1,Se cambió de institución,Vespertino
+Alumno 497,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 498,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 499,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 500,CECYT 6,Logística,1,1,No continúa,Vespertino
+Alumno 501,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 502,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 503,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 504,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 505,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 506,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 507,CECYT 6,Logística,1,1,Se salió para trabajar,Vespertino
+Alumno 508,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 509,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 510,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 511,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 512,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 513,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 514,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 515,CECYT 6,Soporte y Mantenimiento,1,1,Problemas económicos,Vespertino
+Alumno 516,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 517,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 518,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 519,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 520,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 521,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 522,CECYT 6,Programación,1,1,Causa legal,Vespertino
+Alumno 523,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 524,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 525,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 526,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 527,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 528,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 529,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 530,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 531,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 532,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 533,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 534,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 535,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 536,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 537,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 538,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 539,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 540,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 541,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 542,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 543,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 544,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 545,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 546,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 547,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 548,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 549,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 550,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 551,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 552,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 553,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 554,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 555,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 556,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 557,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 558,CECYT 6,Programación,1,1,No continúa,Vespertino
+Alumno 559,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 560,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 561,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 562,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 563,CECYT 6,Programación,1,0,No aplica,Vespertino
+Alumno 564,CECYT 6,Máquinas y Herramientas,1,1,Se salió para trabajar,Vespertino
+Alumno 565,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 566,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 567,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 568,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 569,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 570,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 571,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 572,CECYT 6,Programación,1,1,Problemas económicos,Vespertino
+Alumno 573,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 574,CECYT 6,Logística,1,0,No aplica,Vespertino
+Alumno 575,CECYT 6,Programación,1,1,Se salió para trabajar,Vespertino
+Alumno 576,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 577,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 578,CECYT 6,Electrónica,1,1,Se salió para trabajar,Vespertino
+Alumno 579,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 580,CECYT 6,Máquinas y Herramientas,1,1,Se cambió de institución,Vespertino
+Alumno 581,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 582,CECYT 6,Electrónica,1,0,No aplica,Vespertino
+Alumno 583,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 584,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 585,CECYT 6,Máquinas y Herramientas,1,0,No aplica,Vespertino
+Alumno 586,CECYT 6,Soporte y Mantenimiento,1,0,No aplica,Vespertino
+Alumno 587,CECYT 6,Programación,1,1,Se salió para trabajar,Vespertino
+Alumno 588,CECYT 6,Programación,1,1,No aplica,Vespertino
+Alumno 589,CECYT 6,Logística,1,1,Problemas familiares,Vespertino

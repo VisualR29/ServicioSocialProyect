@@ -9,7 +9,7 @@ import {
     porcentajeDesercionTotal,
     causasDesercion
 } from "../utils/dataAnalysis";
-import csvFile from '../assets/Base_de_datos_de_al.csv';
+import csvFile from '../assets/Base_datos_final.csv';
 import "../styles/Institution.css";
 
 const Institution = () => {
@@ -50,7 +50,7 @@ const Institution = () => {
                             <p className="data-value">{analysis.totalIngresaron}</p>
                         </div>
                         <div className="data-card">
-                            <h3>Total de desertores</h3>
+                            <h3>Total de bajas</h3>
                             <p className="data-value">{analysis.totalDesertaron}</p>
                         </div>
                         <div className="data-card">

@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import Papa from "papaparse";
-import csvFile from "../assets/Base_de_datos_de_al.csv";
+import csvFile from "../assets/Base_datos_final.csv";
 import {
     totalIngresaron,
     totalDesertaron,
     porcentajeDesercionTotal,
-    desertoresPorInstitucion
+    desertoresPorInstitucion,
+    listaInstituciones
 } from "../utils/dataAnalysis";
 import InstitutionList from "../components/InstitutionList";
 import MetricsCards from "../components/MetricsCards";
@@ -16,7 +16,6 @@ import "../styles/Home.css";
 const Home = () => {
     const [data, setData] = useState([]);
     const [stats, setStats] = useState({});
-    const navigate = useNavigate();
 
     useEffect(() => {
         fetch(csvFile)
@@ -36,20 +35,17 @@ const Home = () => {
                             totalDesertores: desertaron,
                             porcentajeDesercion: porcentajeDesercionTotal(parsedData),
                             desertoresPorInstitucion: desertoresPorInstitucion(parsedData),
+                            listaInstituciones: listaInstituciones(parsedData),
                         });
                     },
                 });
             });
     }, []);
 
-    const instituciones = useMemo(() =>
-        stats.desertoresPorInstitucion ? Object.keys(stats.desertoresPorInstitucion) : []
-        , [stats]);
-
     return (
         <div className="main-container">
             <div className='left-panel'>
-                <InstitutionList instituciones={instituciones} />
+                <InstitutionList instituciones={stats.listaInstituciones || []} />
             </div>
             <div className='right-panel'>
                 <GlobalAnalysis

@@ -5,7 +5,7 @@ const InstitutionList = ({ instituciones }) => {
     const navigate = useNavigate();
 
     const handleSelect = (institution) => {
-        navigate(`/institucion/${encodeURIComponent(institution)}`);
+        navigate(`/ins/${encodeURIComponent(institution)}`);
     };
 
     return (

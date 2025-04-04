@@ -8,16 +8,16 @@ const MetricsCards = ({
 }) => {
     const cards = [
         {
+            label: "Porcentaje de deserción",
+            value: porcentajeDesercion,
+        },
+        {
             label: "Total de estudiantes ingresados",
             value: totalIngresados,
         },
         {
-            label: "Total de desertores",
+            label: "Total de bajas",
             value: totalDesertores,
-        },
-        {
-            label: "Porcentaje de deserción",
-            value: porcentajeDesercion,
         },
     ];
 

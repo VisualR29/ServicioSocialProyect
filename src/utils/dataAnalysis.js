@@ -61,3 +61,27 @@ export const desertoresPorInstitucionYCapacitacion = (data) => {
         return acc;
     }, {});
 };
+
+export const porcentajeDesercionPorInstitucion = (data) => {
+    const instituciones = {};
+    data.forEach((row) => {
+        const institucion = row["Institución"];
+        const ingresaron = Number(row["Ingresaron"]);
+        const desertaron = Number(row["Desertaron"]);
+        if (!institucion) return;
+        if (!instituciones[institucion]) {
+            instituciones[institucion] = { ingresaron: 0, desertaron: 0 };
+        }
+        instituciones[institucion].ingresaron += ingresaron;
+        instituciones[institucion].desertaron += desertaron;
+    });
+    const resultado = Object.entries(instituciones).map(([nombre, valores]) => {
+        const { ingresaron, desertaron } = valores;
+        const porcentaje = ingresaron > 0 ? (desertaron / ingresaron) * 100 : 0;
+        return {
+            name: nombre,
+            porcentaje: Number(porcentaje.toFixed(2))
+        };
+    });
+    return resultado;
+};

@@ -24,7 +24,7 @@ const Charts = ({ stats }) => {
     return (
         <div>
             {/* 📊 Gráfico de Barras - Desertores por Institución */}
-            <h3>Desertores por Institución</h3>
+            <h3>Bajas por Institución</h3>
             <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={desertoresInstitucionData}>
                     <XAxis dataKey="name" />
@@ -35,8 +35,8 @@ const Charts = ({ stats }) => {
                 </BarChart>
             </ResponsiveContainer>
 
-            {/* 🥧 Gráfico de Pastel - Desertores por Capacitación */}
-            <h3>Desertores por Institución y Capacitación</h3>
+        {/* 🥧 Gráfico de Pastel - Desertores por Capacitación */}
+            <h3>Bajas por Institución y Capacitación</h3>
             <ResponsiveContainer width="100%" height={300}>
                 <PieChart>
                     <Pie
