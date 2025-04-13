@@ -14,7 +14,7 @@ import "../styles/Institution.css";
 
 const Institution = () => {
     const { institution } = useParams();
-    const [data, setData] = useState([]);
+    // const [data, setData] = useState([]);
     const [analysis, setAnalysis] = useState(null);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const Institution = () => {
             .then((fileData) => {
                 const parsedData = Papa.parse(fileData, { header: true }).data;
                 const filteredData = parsedData.filter((row) => row.Institución === institution);
-                setData(filteredData);
+                // setData(filteredData);
 
                 setAnalysis({
                     totalIngresaron: totalIngresaron(filteredData),
