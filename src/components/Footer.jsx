@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -7,10 +8,9 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Navegación</h4>
                     <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#about">Acerca</a></li>
-                        <li><a href="#services">Servicios</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><NavLink to={'/'}>Estadisticas</NavLink></li>
+                        <li><NavLink to={'/plan'}>Planes de acción</NavLink></li>
+                        <li><NavLink to={'/nosotros'}>Sobre Manahuia</NavLink></li>
                     </ul>
                 </div>
 
