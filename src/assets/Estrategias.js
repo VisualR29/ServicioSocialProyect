@@ -3,6 +3,7 @@ export const strategies = [
         id: 'estrategia1',
         title: 'Programa de Orientación Vocacional y Proyecto de Vida',
         problems: ['No continuar estudiando', 'Salir a trabajar', 'Cambio de institución'],
+        causasMatch: ['No continuará sus estudios', 'Se salió para trabajar', 'Cambio de institución'],
         description: 'Construye caminos académicos y laborales mediante pruebas psicométricas, talleres de vida y ferias de oportunidades.',
         timeline: [
             { activity: 'Aplicación de pruebas psicológicas', time: 'Mes 1 y 6', responsible: 'Departamento de Psicología' },
@@ -14,6 +15,7 @@ export const strategies = [
         id: 'estrategia2',
         title: 'Atención a Problemas Familiares',
         problems: ['Problemas familiares', 'Baja momentánea', 'Causa legal'],
+        causasMatch: ['Problemas familiares', 'Baja temporal', 'Causa legal'],
         description: 'Contención emocional, formación parental y canalización profesional ante problemáticas del entorno familiar.',
         timeline: [
             { activity: 'Escuela para Padres', time: 'Mensual (10 sesiones)', responsible: 'Psicólogo / Trabajador Social' },
@@ -25,6 +27,7 @@ export const strategies = [
         id: 'estrategia3',
         title: 'Apoyo Económico y Emprendimiento',
         problems: ['Problemas económicos', 'Salida para trabajar'],
+        causasMatch: ['Problemas económicos', 'Se salió para trabajar'],
         description: 'Otorga apoyo financiero y fomenta proyectos escolares productivos.',
         timeline: [
             { activity: 'Bolsa de Becas Interna', time: 'Mes 1 y 7', responsible: 'Dirección Administrativa' },
@@ -36,6 +39,7 @@ export const strategies = [
         id: 'estrategia4',
         title: 'Modelo Educativo Flexible y Reincorporación',
         problems: ['Baja momentánea', 'Salida para trabajar'],
+        causasMatch: ['Baja temporal', 'Se salió para trabajar'],
         description: 'Facilita el retorno escolar con horarios adaptables y modalidades híbridas.',
         timeline: [
             { activity: 'Plan de Reincorporación Personalizado', time: 'Cada caso', responsible: 'Coordinador Académico' },
@@ -46,6 +50,7 @@ export const strategies = [
         id: 'estrategia5',
         title: 'Detección Temprana de Casos de Riesgo',
         problems: ['Todas'],
+        causasMatch: ['Todas'],
         description: 'Sistema digital de alertas y formación docente para intervenir a tiempo.',
         timeline: [
             { activity: 'Sistema Digital de Alertas', time: 'Mes 1 - 2', responsible: 'Departamento de Tecnología' },

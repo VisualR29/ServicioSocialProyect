@@ -15,7 +15,6 @@ const Plan = () => {
                         <details key={id} className='accordion-item'>
                             <summary className='accordion-title'>{title}</summary>
                             <SingleStrategy
-                                title={title}
                                 problems={problems}
                                 description={description}
                                 timeline={timeline}

@@ -1,9 +1,8 @@
 import '../styles/Plan.css';
 
-const SingleStrategy = ({ title, problems, description, timeline }) => {
+const SingleStrategy = ({ problems, description, timeline }) => {
     return (
         <div className='accordion-item'>
-            {/* <h2 className='accordion-title'>{title}</h2> */}
             <p className='accordion-description'>{description}</p>
             <strong>Problemáticas:</strong>
             <ul>{problems.map((p, i) => <li key={i}>{p}</li>)}</ul>

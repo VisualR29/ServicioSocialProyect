@@ -1,3 +1,5 @@
+import { strategies } from "../assets/Estrategias";
+
 export const listaInstituciones = (data) => {
     return [...new Set(data.map(row => row["Institución"]).filter(Boolean))];
 };
@@ -84,4 +86,27 @@ export const porcentajeDesercionPorInstitucion = (data) => {
         };
     });
     return resultado;
+};
+
+export const obtenerTopEstrategias = (causasObj) => {
+    const listaCausas = [];
+    Object.entries(causasObj).forEach(([causa, cantidad]) => {
+        for (let i = 0; i < cantidad; i++) {
+            listaCausas.push(causa);
+        }
+    });
+
+    const estrategiasConPuntaje = strategies.map((estrategia) => {
+        const matchCount = listaCausas.filter((causa) =>
+            Array.isArray(estrategia.causasMatch) &&
+            (estrategia.causasMatch.includes(causa) || estrategia.causasMatch.includes("Todas"))
+        ).length;
+
+        return { ...estrategia, matchCount };
+    });
+
+    return estrategiasConPuntaje
+        .filter(e => e.matchCount > 0)
+        .sort((a, b) => b.matchCount - a.matchCount)
+        .slice(0, 3); // Top 3
 };

@@ -7,14 +7,16 @@ import {
     totalDesertaron,
     alumnosPorCapacitacion,
     porcentajeDesercionTotal,
-    causasDesercion
+    causasDesercion,
+    obtenerTopEstrategias
 } from "../utils/dataAnalysis";
+import SingleStrategy from '../components/SingleStrategy';
+import { strategies } from "../assets/Estrategias";
 import csvFile from '../assets/Base_datos_final.csv';
 import "../styles/Institution.css";
 
 const Institution = () => {
     const { institution } = useParams();
-    // const [data, setData] = useState([]);
     const [analysis, setAnalysis] = useState(null);
 
     useEffect(() => {
@@ -23,19 +25,53 @@ const Institution = () => {
             .then((fileData) => {
                 const parsedData = Papa.parse(fileData, { header: true }).data;
                 const filteredData = parsedData.filter((row) => row.Institución === institution);
-                // setData(filteredData);
+                const causasRaw = causasDesercion(filteredData);
 
                 setAnalysis({
                     totalIngresaron: totalIngresaron(filteredData),
                     totalDesertaron: totalDesertaron(filteredData),
                     porcentajeDesercion: porcentajeDesercionTotal(filteredData),
                     alumnosPorCapacitacion: alumnosPorCapacitacion(filteredData) || {},
-                    causasDesercion: causasDesercion(filteredData) || {},
+                    causasDesercion: causasRaw || {},
+                    causaPrincipal: obtenerCausaPrincipal(causasRaw),
+                    estrategiaRecomendada: encontrarEstrategia(causasRaw),
                 });
             });
     }, [institution]);
 
     const COLORS = ["#059669", "#0088FE", "#FFBB28", "#FF8042"];
+
+    const obtenerCausaPrincipal = (causasObj) => {
+        const ordenadas = Object.entries(causasObj).sort((a, b) => b[1] - a[1]);
+        return ordenadas.length > 0 ? ordenadas[0][0] : null;
+    };
+
+    const encontrarEstrategia = (causasObj) => {
+        const listaCausas = [];
+        Object.entries(causasObj).forEach(([causa, cantidad]) => {
+            for (let i = 0; i < cantidad; i++) {
+                listaCausas.push(causa);
+            }
+        });
+
+        const frecuencia = {};
+        listaCausas.forEach((causa) => {
+            frecuencia[causa] = (frecuencia[causa] || 0) + 1;
+        });
+
+        const causaMayor = Object.entries(frecuencia).sort((a, b) => b[1] - a[1])[0]?.[0];
+
+        return strategies.find((estrategia) =>
+            Array.isArray(estrategia.causasMatch) &&
+            (estrategia.causasMatch.includes(causaMayor) || estrategia.causasMatch.includes("Todas"))
+        );
+    };
+
+    let topEstrategias = [];
+    if (analysis) {
+        topEstrategias = obtenerTopEstrategias(analysis.causasDesercion);
+    }
+
 
     return (
         <div className="institution-details">
@@ -89,14 +125,17 @@ const Institution = () => {
                     </div>
 
                     <div className="recommendations">
-                        <h3>Recomendaciones</h3>
-                        <ul>
-                            <li>Fortalecer programas de apoyo psicológico para reducir casos de bullying.</li>
-                            <li>Mejorar el acompañamiento académico y tutorías.</li>
-                            <li>Implementar incentivos para evitar la deserción por factores económicos.</li>
-                            <li>Crear espacios de integración y pertenencia para los estudiantes.</li>
-                        </ul>
+                        <h3>Estrategias Recomendadas</h3>
+                        <p className="description">Estas estrategias se seleccionaron en función de las causas más frecuentes.</p>
+                        {topEstrategias.map((estrategia, i) => (
+                            <details key={estrategia.id} className="accordion-item">
+                                <summary className="accordion-title">#{i + 1} - {estrategia.title}</summary>
+                                <SingleStrategy {...estrategia} />
+                            </details>
+                        ))}
+
                     </div>
+
                 </>
             ) : (
                 <p className="loading-message">Cargando análisis...</p>
