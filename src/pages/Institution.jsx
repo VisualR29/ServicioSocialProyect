@@ -1,7 +1,14 @@
 import { useState, useEffect } from "react";
-import { data, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Papa from "papaparse";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
+
+// ─── Recharts ─────────────────────
+import {
+    BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
+    ResponsiveContainer, PieChart, Pie, Cell
+} from "recharts";
+
+// ─── Utilidades ───────────────────
 import {
     totalIngresaron,
     totalDesertaron,
@@ -11,19 +18,24 @@ import {
     obtenerTopEstrategias,
     desertoresPorCapacitacion
 } from "../utils/dataAnalysis";
-import SingleStrategy from '../components/SingleStrategy';
+
+// ─── Componentes ──────────────────
+import SingleStrategy from "../components/SingleStrategy";
 import TurnoToggle from "../components/TurnoToggle";
 import { strategies } from "../assets/Estrategias";
-import csvFile from '../assets/Base_datos_final.csv';
+
+// ─── Recursos ─────────────────────
+import csvFile from "../assets/Base_datos_final.csv";
 import "../styles/Institution.css";
 
 const Institution = () => {
     const { institution } = useParams();
+
     const [analysis, setAnalysis] = useState(null);
     const [selectedTurno, setSelectedTurno] = useState("General");
     const [availableTurnos, setAvailableTurnos] = useState([]);
 
-
+    // ─── Carga y procesamiento de datos ─────────────────────────
     useEffect(() => {
         fetch(csvFile)
             .then((response) => response.text())
@@ -31,14 +43,12 @@ const Institution = () => {
                 const parsedData = Papa.parse(fileData, { header: true }).data;
                 const filteredData = parsedData.filter((row) => row.Institución === institution);
 
-                // ✅ Detectamos los turnos aquí
                 const turnos = [...new Set(filteredData.map(row => row.Turno))];
-                setAvailableTurnos(turnos); // Necesitas un nuevo estado
+                setAvailableTurnos(turnos);
 
-                const dataFiltradaPorTurno =
-                    selectedTurno === "General"
-                        ? filteredData
-                        : filteredData.filter((row) => row.Turno === selectedTurno);
+                const dataFiltradaPorTurno = selectedTurno === "General"
+                    ? filteredData
+                    : filteredData.filter(row => row.Turno === selectedTurno);
 
                 const causasRaw = causasDesercion(dataFiltradaPorTurno);
 
@@ -55,9 +65,11 @@ const Institution = () => {
             });
     }, [institution, selectedTurno]);
 
-
+    // ─── Constantes y colores ────────────────────────────────────
     const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28BFE", "#FF6666", "#FFB6C1", "#4DD0E1", "#AED581"];
+    const mostrarToggle = availableTurnos.length > 1;
 
+    // ─── Funciones auxiliares ────────────────────────────────────
     const obtenerCausaPrincipal = (causasObj) => {
         const ordenadas = Object.entries(causasObj).sort((a, b) => b[1] - a[1]);
         return ordenadas.length > 0 ? ordenadas[0][0] : null;
@@ -84,6 +96,7 @@ const Institution = () => {
         );
     };
 
+    // ─── Derivados del análisis ─────────────────────────────────
     let topEstrategias = [];
     let pieCausasOrdenadas = [];
     let desertoresData = [];
@@ -97,24 +110,30 @@ const Institution = () => {
 
         desertoresData = Object.entries(analysis.desertoresPorCapacitacion || {}).map(
             ([name, value]) => ({
-                name: name.split(' ')[0],
+                name: name.split(" ")[0],
                 fullLabel: name,
-                value
+                value,
             })
         );
     }
 
-    const mostrarToggle = availableTurnos.length > 1;
-
     const CustomLegend = ({ payload }) => {
         if (!payload) return null;
-        const top4 = [...payload]
-            .sort((a, b) => b.value - a.value)
-            .slice(0, 4);
+
+        const top4 = [...payload].sort((a, b) => b.value - a.value).slice(0, 4);
+
         return (
             <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "15px", marginTop: "10px" }}>
                 {top4.map((entry, index) => (
-                    <div key={index} style={{ display: "flex", alignItems: "center", fontSize: "0.85em", color: entry.color }}>
+                    <div
+                        key={index}
+                        style={{
+                            display: "flex",
+                            alignItems: "center",
+                            fontSize: "0.85em",
+                            color: entry.color,
+                        }}
+                    >
                         <div
                             style={{
                                 width: 10,
@@ -131,15 +150,19 @@ const Institution = () => {
         );
     };
 
+    // ─── Render ────────────────────────────────────────────────
     return (
         <div className="institution-details">
             <h2>{institution}</h2>
             <p className="subtitle">Análisis de deserción</p>
+
             {mostrarToggle && (
                 <TurnoToggle selected={selectedTurno} onChange={setSelectedTurno} />
             )}
+
             {analysis ? (
                 <>
+                    {/* ─── Métricas ─── */}
                     <div className="data-grid">
                         <div className="data-card">
                             <h3>Total de alumnos ingresados</h3>
@@ -155,6 +178,7 @@ const Institution = () => {
                         </div>
                     </div>
 
+                    {/* ─── Gráficos ─── */}
                     <div className="charts-container">
                         <div className="chart-box">
                             <h3>Bajas por Capacitación</h3>
@@ -163,24 +187,35 @@ const Institution = () => {
                                     <XAxis
                                         dataKey="name"
                                         interval={0}
-                                        tick={{ fontSize: 10, fill: '#ccc' }}
+                                        tick={{ fontSize: 10, fill: "#ccc" }}
                                     />
                                     <YAxis />
                                     <Tooltip />
-                                    <Bar dataKey="value" label={{ position: 'top', fill: '#ccc', fontSize: 12 }}>
+                                    <Bar
+                                        dataKey="value"
+                                        label={{ position: "top", fill: "#ccc", fontSize: 12 }}
+                                    >
                                         {desertoresData.map((_, index) => (
                                             <Cell key={`bar-${index}`} fill={COLORS[index % COLORS.length]} />
                                         ))}
                                     </Bar>
                                 </BarChart>
                             </ResponsiveContainer>
-
                         </div>
+
                         <div className="chart-box">
                             <h3>Factores Predominantes</h3>
                             <ResponsiveContainer width="100%" height={320}>
                                 <PieChart>
-                                    <Pie data={pieCausasOrdenadas} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80} label>
+                                    <Pie
+                                        data={pieCausasOrdenadas}
+                                        dataKey="value"
+                                        nameKey="name"
+                                        cx="50%"
+                                        cy="50%"
+                                        outerRadius={80}
+                                        label
+                                    >
                                         {pieCausasOrdenadas.map((_, index) => (
                                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                         ))}
@@ -192,18 +227,21 @@ const Institution = () => {
                         </div>
                     </div>
 
+                    {/* ─── Estrategias recomendadas ─── */}
                     <div className="recommendations">
                         <h3>Estrategias Recomendadas</h3>
-                        <p className="description">Estas estrategias se seleccionaron en función de las causas más frecuentes.</p>
+                        <p className="description">
+                            Estas estrategias se seleccionaron en función de las causas más frecuentes.
+                        </p>
                         {topEstrategias.map((estrategia, i) => (
                             <details key={estrategia.id} className="accordion-item">
-                                <summary className="accordion-title">#{i + 1} - {estrategia.title}</summary>
+                                <summary className="accordion-title">
+                                    #{i + 1} - {estrategia.title}
+                                </summary>
                                 <SingleStrategy {...estrategia} />
                             </details>
                         ))}
-
                     </div>
-
                 </>
             ) : (
                 <p className="loading-message">Cargando análisis...</p>

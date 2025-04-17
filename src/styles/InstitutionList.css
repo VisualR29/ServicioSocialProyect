@@ -1,14 +1,17 @@
-.intitution-container {
+/* ─────────────── Contenedor principal ─────────────── */
+.institution-container {
     text-align: center;
     padding: 20px;
 }
 
-h2 {
+/* ─────────────── Encabezado ─────────────── */
+.institution-container h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+/* ─────────────── Lista de instituciones ─────────────── */
 .institution-list {
     display: table;
     margin: 0 auto;
@@ -37,6 +40,7 @@ h2 {
     background-color: #08c68a;
 }
 
+/* ─────────────── Estado de carga ─────────────── */
 .loading-message {
     font-size: 18px;
     color: #666;

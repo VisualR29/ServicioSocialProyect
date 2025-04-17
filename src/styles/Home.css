@@ -1,7 +1,10 @@
+/* ─────────────── Layout principal ─────────────── */
 .home {
     display: flex;
+    height: 100%;
 }
 
+/* ─────────────── Panel izquierdo: Lista de instituciones ─────────────── */
 .left-panel {
     width: 25%;
     padding: 32px;
@@ -9,6 +12,7 @@
     overflow-y: auto;
 }
 
+/* ─────────────── Panel derecho: Gráficas y métricas ─────────────── */
 .right-panel {
     flex: 1;
     display: flex;

@@ -1,12 +1,18 @@
-import '../styles/Plan.css';
+import "../styles/Plan.css";
 
 const SingleStrategy = ({ problems, description, timeline }) => {
     return (
-        <div className='accordion-item'>
-            <p className='accordion-description'>{description}</p>
+        <div className="accordion-item">
+            <p className="accordion-description">{description}</p>
+
             <strong>Problemáticas:</strong>
-            <ul>{problems.map((p, i) => <li key={i}>{p}</li>)}</ul>
-            <table className='timeline-table'>
+            <ul>
+                {problems.map((problem, index) => (
+                    <li key={index}>{problem}</li>
+                ))}
+            </ul>
+
+            <table className="timeline-table">
                 <thead>
                     <tr>
                         <th>Actividades</th>
@@ -15,11 +21,11 @@ const SingleStrategy = ({ problems, description, timeline }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {timeline.map((row, i) => (
-                        <tr key={i}>
-                            <td>{row.activity}</td>
-                            <td>{row.time}</td>
-                            <td>{row.responsible}</td>
+                    {timeline.map(({ activity, time, responsible }, index) => (
+                        <tr key={index}>
+                            <td>{activity}</td>
+                            <td>{time}</td>
+                            <td>{responsible}</td>
                         </tr>
                     ))}
                 </tbody>

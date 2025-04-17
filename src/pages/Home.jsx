@@ -1,16 +1,24 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Papa from "papaparse";
+
+// ─── Assets ─────────────────────────────────────────────
 import csvFile from "../assets/Base_datos_final.csv";
+
+// ─── Utils ──────────────────────────────────────────────
 import {
     totalIngresaron,
     totalDesertaron,
     porcentajeDesercionTotal,
     desertoresPorInstitucion,
-    listaInstituciones
+    listaInstituciones,
 } from "../utils/dataAnalysis";
+
+// ─── Componentes ────────────────────────────────────────
 import InstitutionList from "../components/InstitutionList";
 import MetricsCards from "../components/MetricsCards";
 import GlobalAnalysis from "../components/GlobalAnalysis";
+
+// ─── Estilos ────────────────────────────────────────────
 import "../styles/Home.css";
 
 const Home = () => {
@@ -25,7 +33,8 @@ const Home = () => {
                     header: true,
                     skipEmptyLines: true,
                     complete: (result) => {
-                        const parsedData = result.data.filter(row => row["Institución"]);
+                        const parsedData = result.data.filter((row) => row["Institución"]);
+
                         const ingresaron = totalIngresaron(parsedData);
                         const desertaron = totalDesertaron(parsedData);
 
@@ -44,10 +53,11 @@ const Home = () => {
 
     return (
         <div className="main-container">
-            <div className='left-panel'>
+            <div className="left-panel">
                 <InstitutionList instituciones={stats.listaInstituciones || []} />
             </div>
-            <div className='right-panel'>
+
+            <div className="right-panel">
                 <GlobalAnalysis
                     desertoresPorInstitucion={stats.desertoresPorInstitucion || {}}
                     totalIngresados={stats.totalIngresados || 0}
@@ -62,6 +72,6 @@ const Home = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Home;

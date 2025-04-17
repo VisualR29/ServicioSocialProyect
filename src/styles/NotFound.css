@@ -1,8 +1,14 @@
+/* ─────────────── Contenedor principal ─────────────── */
 .notfound-container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 40px 20px;
 }
 
+/* ─────────────── Código 404 ─────────────── */
 .notfound-title {
     font-size: 6rem;
     font-weight: bold;
@@ -10,11 +16,13 @@
     color: #059669;
 }
 
+/* ─────────────── Texto descriptivo ─────────────── */
 .notfound-text {
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
+/* ─────────────── Botón de regreso ─────────────── */
 .notfound-button {
     background-color: #059669;
     color: #282c34;
@@ -22,7 +30,7 @@
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .notfound-button:hover {

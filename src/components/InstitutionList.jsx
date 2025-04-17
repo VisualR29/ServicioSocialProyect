@@ -11,11 +11,15 @@ const InstitutionList = ({ instituciones }) => {
     return (
         <div className="institution-container">
             <h2>Selecciona una institución</h2>
+
             {instituciones.length > 0 ? (
                 <ul className="institution-list">
                     {instituciones.map((institution, index) => (
                         <li key={index} className="institution-item">
-                            <button className="institution-button" onClick={() => handleSelect(institution)}>
+                            <button
+                                className="institution-button"
+                                onClick={() => handleSelect(institution)}
+                            >
                                 {institution}
                             </button>
                         </li>

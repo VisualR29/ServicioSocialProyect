@@ -1,70 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Manahuia – Plataforma para el Análisis de Deserción Escolar
 
-## Available Scripts
+Este proyecto web permite visualizar, analizar y recomendar estrategias para combatir la deserción escolar en instituciones del estado de Chihuahua. Está desarrollado con React y visualizaciones interactivas usando Recharts.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Características principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Visualización del porcentaje de deserción por institución.
+- Análisis de causas predominantes por turno (General, Matutino, Vespertino).
+- Recomendación automática de estrategias.
+- Panel general con métricas y gráficas comparativas.
+- Interfaz moderna, responsiva y organizada.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧱 Estructura del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+  assets/             # Archivos como estrategias y base de datos CSV
+  components/         # Componentes reutilizables (Header, Footer, Charts)
+  pages/              # Vistas principales del sitio
+  styles/             # Archivos CSS modulares por componente
+  utils/              # Lógica y funciones de análisis de datos
+  App.jsx             # Rutas principales
+  index.js            # Entrada de la aplicación
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Dependencias clave
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** – Librería principal de UI.
+- **React Router DOM** – Navegación entre páginas.
+- **Recharts** – Visualización de gráficos.
+- **PapaParse** – Lectura y parseo de archivos CSV.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶️ Cómo ejecutar el proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clona el repositorio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/VisualR29/ServicioSocialProyect.git
+cd ServicioSocialProyect
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Instala las dependencias:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+3. Ejecuta en desarrollo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📁 Fuente de datos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- El archivo `Base_datos_final.csv` contiene los datos recopilados por institución, incluyendo:
+  - Institución
+  - Capacitación
+  - Ingresaron
+  - Desertaron
+  - Causa de Deserción
+  - Turno
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✨ Créditos
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desarrollado por **Esteban Rojas** dentro del proyecto **Manahuia** administrado **Alejandra Martínez** , como iniciativa estratégica contra la deserción escolar.
