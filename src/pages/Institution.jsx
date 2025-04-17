@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { data, useParams } from "react-router-dom";
 import Papa from "papaparse";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 import {
@@ -8,9 +8,11 @@ import {
     alumnosPorCapacitacion,
     porcentajeDesercionTotal,
     causasDesercion,
-    obtenerTopEstrategias
+    obtenerTopEstrategias,
+    desertoresPorCapacitacion
 } from "../utils/dataAnalysis";
 import SingleStrategy from '../components/SingleStrategy';
+import TurnoToggle from "../components/TurnoToggle";
 import { strategies } from "../assets/Estrategias";
 import csvFile from '../assets/Base_datos_final.csv';
 import "../styles/Institution.css";
@@ -18,6 +20,9 @@ import "../styles/Institution.css";
 const Institution = () => {
     const { institution } = useParams();
     const [analysis, setAnalysis] = useState(null);
+    const [selectedTurno, setSelectedTurno] = useState("General");
+    const [availableTurnos, setAvailableTurnos] = useState([]);
+
 
     useEffect(() => {
         fetch(csvFile)
@@ -25,21 +30,33 @@ const Institution = () => {
             .then((fileData) => {
                 const parsedData = Papa.parse(fileData, { header: true }).data;
                 const filteredData = parsedData.filter((row) => row.Institución === institution);
-                const causasRaw = causasDesercion(filteredData);
+
+                // ✅ Detectamos los turnos aquí
+                const turnos = [...new Set(filteredData.map(row => row.Turno))];
+                setAvailableTurnos(turnos); // Necesitas un nuevo estado
+
+                const dataFiltradaPorTurno =
+                    selectedTurno === "General"
+                        ? filteredData
+                        : filteredData.filter((row) => row.Turno === selectedTurno);
+
+                const causasRaw = causasDesercion(dataFiltradaPorTurno);
 
                 setAnalysis({
-                    totalIngresaron: totalIngresaron(filteredData),
-                    totalDesertaron: totalDesertaron(filteredData),
-                    porcentajeDesercion: porcentajeDesercionTotal(filteredData),
-                    alumnosPorCapacitacion: alumnosPorCapacitacion(filteredData) || {},
+                    totalIngresaron: totalIngresaron(dataFiltradaPorTurno),
+                    totalDesertaron: totalDesertaron(dataFiltradaPorTurno),
+                    porcentajeDesercion: porcentajeDesercionTotal(dataFiltradaPorTurno),
+                    alumnosPorCapacitacion: alumnosPorCapacitacion(dataFiltradaPorTurno) || {},
                     causasDesercion: causasRaw || {},
+                    desertoresPorCapacitacion: desertoresPorCapacitacion(dataFiltradaPorTurno),
                     causaPrincipal: obtenerCausaPrincipal(causasRaw),
                     estrategiaRecomendada: encontrarEstrategia(causasRaw),
                 });
             });
-    }, [institution]);
+    }, [institution, selectedTurno]);
 
-    const COLORS = ["#059669", "#0088FE", "#FFBB28", "#FF8042"];
+
+    const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28BFE", "#FF6666", "#FFB6C1", "#4DD0E1", "#AED581"];
 
     const obtenerCausaPrincipal = (causasObj) => {
         const ordenadas = Object.entries(causasObj).sort((a, b) => b[1] - a[1]);
@@ -68,16 +85,59 @@ const Institution = () => {
     };
 
     let topEstrategias = [];
+    let pieCausasOrdenadas = [];
+    let desertoresData = [];
+
     if (analysis) {
         topEstrategias = obtenerTopEstrategias(analysis.causasDesercion);
+
+        pieCausasOrdenadas = Object.entries(analysis.causasDesercion || {})
+            .map(([name, value]) => ({ name, value }))
+            .sort((a, b) => b.value - a.value);
+
+        desertoresData = Object.entries(analysis.desertoresPorCapacitacion || {}).map(
+            ([name, value]) => ({
+                name: name.split(' ')[0],
+                fullLabel: name,
+                value
+            })
+        );
     }
 
+    const mostrarToggle = availableTurnos.length > 1;
+
+    const CustomLegend = ({ payload }) => {
+        if (!payload) return null;
+        const top4 = [...payload]
+            .sort((a, b) => b.value - a.value)
+            .slice(0, 4);
+        return (
+            <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "15px", marginTop: "10px" }}>
+                {top4.map((entry, index) => (
+                    <div key={index} style={{ display: "flex", alignItems: "center", fontSize: "0.85em", color: entry.color }}>
+                        <div
+                            style={{
+                                width: 10,
+                                height: 10,
+                                borderRadius: "50%",
+                                backgroundColor: entry.color,
+                                marginRight: 6,
+                            }}
+                        />
+                        <span>{entry.payload.name}</span>
+                    </div>
+                ))}
+            </div>
+        );
+    };
 
     return (
         <div className="institution-details">
             <h2>{institution}</h2>
             <p className="subtitle">Análisis de deserción</p>
-
+            {mostrarToggle && (
+                <TurnoToggle selected={selectedTurno} onChange={setSelectedTurno} />
+            )}
             {analysis ? (
                 <>
                     <div className="data-grid">
@@ -97,28 +157,36 @@ const Institution = () => {
 
                     <div className="charts-container">
                         <div className="chart-box">
-                            <h3>Índice de Deserción</h3>
-                            <ResponsiveContainer width="100%" height={250}>
-                                <BarChart data={Object.entries(analysis.alumnosPorCapacitacion || {}).map(([name, value]) => ({ name, value }))}>
-                                    <XAxis dataKey="name" />
+                            <h3>Bajas por Capacitación</h3>
+                            <ResponsiveContainer width="100%" height={320}>
+                                <BarChart data={desertoresData}>
+                                    <XAxis
+                                        dataKey="name"
+                                        interval={0}
+                                        tick={{ fontSize: 10, fill: '#ccc' }}
+                                    />
                                     <YAxis />
                                     <Tooltip />
-                                    <Legend />
-                                    <Bar dataKey="value" fill="#059669" />
+                                    <Bar dataKey="value" label={{ position: 'top', fill: '#ccc', fontSize: 12 }}>
+                                        {desertoresData.map((_, index) => (
+                                            <Cell key={`bar-${index}`} fill={COLORS[index % COLORS.length]} />
+                                        ))}
+                                    </Bar>
                                 </BarChart>
                             </ResponsiveContainer>
+
                         </div>
                         <div className="chart-box">
                             <h3>Factores Predominantes</h3>
-                            <ResponsiveContainer width="100%" height={250}>
+                            <ResponsiveContainer width="100%" height={320}>
                                 <PieChart>
-                                    <Pie data={Object.entries(analysis.causasDesercion || {}).map(([name, value], index) => ({ name, value, fill: COLORS[index % COLORS.length] }))} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80}>
-                                        {Object.entries(analysis.causasDesercion || {}).map((entry, index) => (
+                                    <Pie data={pieCausasOrdenadas} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80} label>
+                                        {pieCausasOrdenadas.map((_, index) => (
                                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                         ))}
                                     </Pie>
                                     <Tooltip />
-                                    <Legend />
+                                    <Legend content={<CustomLegend />} />
                                 </PieChart>
                             </ResponsiveContainer>
                         </div>

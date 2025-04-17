@@ -1,0 +1,23 @@
+.turno-toggle {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.toggle-btn {
+    background-color: #2d2d2d;
+    color: #ccc;
+    border: 1px solid #444;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.toggle-btn.active {
+    background-color: #059669;
+    color: white;
+    border-color: #059669;
+}

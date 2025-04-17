@@ -5,7 +5,7 @@ import {
 import { causasDesercion, porcentajeDesercionPorInstitucion } from "../utils/dataAnalysis";
 import "../styles/GlobalAnalysis.css";
 
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28BFE", "#FF6666"];
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28BFE", "#FF6666", "#FFB6C1", "#4DD0E1", "#AED581"];
 
 const GlobalAnalysis = ({
     desertoresPorInstitucion,
@@ -20,13 +20,13 @@ const GlobalAnalysis = ({
     const pieDesercion = [
         { name: "Desertaron", value: totalDesertores },
         { name: "No desertaron", value: totalIngresados - totalDesertores },
-    ];
+    ].sort((a,b) => b.value - a.value);
 
     // 3. Gráfica de pastel: Causas reales de deserción
-    const pieCausas = Object.entries(causasDesercion(data)).map(([name, value]) => ({
-        name,
-        value,
-    }));
+    const pieCausas = Object.entries(causasDesercion(data))
+        .map(([name, value]) => ({ name, value }))
+        .sort((a, b) => b.value - a.value);
+
 
     const CustomLegend = ({ payload }) => {
         if (!payload) return null;
@@ -50,7 +50,6 @@ const GlobalAnalysis = ({
                     </div>
                 ))}
             </div>
-
         );
     };
 

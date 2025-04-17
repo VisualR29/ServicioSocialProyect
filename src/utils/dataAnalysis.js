@@ -110,3 +110,13 @@ export const obtenerTopEstrategias = (causasObj) => {
         .sort((a, b) => b.matchCount - a.matchCount)
         .slice(0, 3); // Top 3
 };
+
+export const desertoresPorCapacitacion = (data) => {
+    return data.reduce((acc, row) => {
+        if (row["Desertaron"] === '1') {
+            const capacitacion = row["Capacitación"];
+            acc[capacitacion] = (acc[capacitacion] || 0) + 1;
+        }
+        return acc;
+    }, {});
+};
