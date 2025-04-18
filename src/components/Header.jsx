@@ -15,7 +15,7 @@ const Header = () => {
                         <NavLink to="/">Estadísticas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/plan">Plan de acción</NavLink>
+                        <NavLink to="/plan">Planes de acción</NavLink>
                     </li>
                     <li>
                         <NavLink to="/nosotros">Sobre Manahuia</NavLink>

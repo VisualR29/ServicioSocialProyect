@@ -11,15 +11,14 @@
 
 /* ─────────────── Encabezado ─────────────── */
 .institution-details h2 {
-    font-size: 28px;
+    font-size: 1.7rem;
     margin-top: 40px;
-    /* Más separación del header */
     margin-bottom: 5px;
     text-align: center;
 }
 
 .subtitle {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #6c757d;
     margin-bottom: 20px;
     text-align: center;

@@ -12,14 +12,14 @@ const About = () => {
                 <div className="content">
                     <BlockText
                         title="Misión"
-                        alignLeft={true}
+                        alignLeft={false}
                     >
                         Erradicar la deserción escolar, proporcionando recursos educativos accesibles, apoyo emocional y programas de tutoría para empoderar a los estudiantes, fomentando un entorno educativo inclusivo que inspire el compromiso y el éxito académico.
                     </BlockText>
 
                     <BlockText
                         title="Visión"
-                        alignLeft={true}
+                        alignLeft={false}
                     >
                         Para el 2030, crear un futuro donde cada estudiante tenga acceso equitativo a oportunidades educativas, y la deserción escolar sea una problemática superada, estableciendo un entorno educativo que nutra el potencial de cada estudiante.
                     </BlockText>
