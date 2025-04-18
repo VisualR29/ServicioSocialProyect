@@ -128,7 +128,8 @@
     color: #ccc;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 660px) {
     .institution-details h2 {
         font-size: 1.6rem;
         margin-top: 30px;
@@ -178,5 +179,15 @@
 
     .accordion-description {
         font-size: 0.95rem;
+    }
+
+    .recharts-cartesian-axis-tick-value {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .recharts-cartesian-axis-tick-value {
+        font-size: 8px !important;
     }
 }

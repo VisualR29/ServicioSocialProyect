@@ -99,7 +99,7 @@ const Institution = () => {
 
         desertoresData = Object.entries(analysis.desertoresPorCapacitacion || {}).map(
             ([name, value]) => ({
-                name: name.split(" ")[0],
+                name: name.length > 10 ? name.slice(0, 8) + "…" : name,
                 fullLabel: name,
                 value,
             })
