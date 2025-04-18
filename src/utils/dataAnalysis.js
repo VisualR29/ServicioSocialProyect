@@ -92,29 +92,42 @@ export const causasDesercion = (data) => {
     }, {});
 };
 
+
 export const obtenerTopEstrategias = (causasObj) => {
-    const listaCausas = [];
-    Object.entries(causasObj).forEach(([causa, cantidad]) => {
-        for (let i = 0; i < cantidad; i++) {
-            listaCausas.push(causa);
-        }
-    });
+    const listaCausas = expandirCausas(causasObj);
 
     const estrategiasConPuntaje = strategies.map((estrategia) => {
         const matchCount = listaCausas.filter((causa) =>
             Array.isArray(estrategia.causasMatch) &&
-            (estrategia.causasMatch.includes(causa) ||
-                estrategia.causasMatch.includes("Todas"))
+            (estrategia.causasMatch.includes(causa) || estrategia.causasMatch.includes("Todas"))
         ).length;
 
         return { ...estrategia, matchCount };
     });
 
     return estrategiasConPuntaje
-        .filter((e) => e.matchCount > 0)
+        .filter(e => e.matchCount > 0)
         .sort((a, b) => b.matchCount - a.matchCount)
         .slice(0, 3);
 };
+
+export const expandirCausas = (causasObj) => {
+    const lista = [];
+    Object.entries(causasObj).forEach(([causa, cantidad]) => {
+        for (let i = 0; i < cantidad; i++) {
+            lista.push(causa);
+        }
+    });
+    return lista;
+};
+
+export const contarFrecuencia = (lista) => {
+    return lista.reduce((acc, item) => {
+        acc[item] = (acc[item] || 0) + 1;
+        return acc;
+    }, {});
+};
+
 
 //
 // ────────────────────────────────────────────────────────────
@@ -149,3 +162,4 @@ export const porcentajeDesercionPorInstitucion = (data) => {
         };
     });
 };
+

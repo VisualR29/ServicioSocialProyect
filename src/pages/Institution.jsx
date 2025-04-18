@@ -2,12 +2,6 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Papa from "papaparse";
 
-// ─── Recharts ─────────────────────
-import {
-    BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
-    ResponsiveContainer, PieChart, Pie, Cell
-} from "recharts";
-
 // ─── Utilidades ───────────────────
 import {
     totalIngresaron,
@@ -16,12 +10,16 @@ import {
     porcentajeDesercionTotal,
     causasDesercion,
     obtenerTopEstrategias,
-    desertoresPorCapacitacion
+    desertoresPorCapacitacion,
+    expandirCausas,
+    contarFrecuencia
 } from "../utils/dataAnalysis";
 
 // ─── Componentes ──────────────────
 import SingleStrategy from "../components/SingleStrategy";
 import TurnoToggle from "../components/TurnoToggle";
+import PieChartWithLegend from "../components/PieChartWithLegend";
+import SimpleBarChart from "../components/SimpleBarChart";
 import { strategies } from "../assets/Estrategias";
 
 // ─── Recursos ─────────────────────
@@ -65,8 +63,7 @@ const Institution = () => {
             });
     }, [institution, selectedTurno]);
 
-    // ─── Constantes y colores ────────────────────────────────────
-    const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28BFE", "#FF6666", "#FFB6C1", "#4DD0E1", "#AED581"];
+    // ─── Constantes ────────────────────────────────────
     const mostrarToggle = availableTurnos.length > 1;
 
     // ─── Funciones auxiliares ────────────────────────────────────
@@ -76,17 +73,9 @@ const Institution = () => {
     };
 
     const encontrarEstrategia = (causasObj) => {
-        const listaCausas = [];
-        Object.entries(causasObj).forEach(([causa, cantidad]) => {
-            for (let i = 0; i < cantidad; i++) {
-                listaCausas.push(causa);
-            }
-        });
+        const listaCausas = expandirCausas(causasObj);
+        const frecuencia = contarFrecuencia(listaCausas);
 
-        const frecuencia = {};
-        listaCausas.forEach((causa) => {
-            frecuencia[causa] = (frecuencia[causa] || 0) + 1;
-        });
 
         const causaMayor = Object.entries(frecuencia).sort((a, b) => b[1] - a[1])[0]?.[0];
 
@@ -116,39 +105,6 @@ const Institution = () => {
             })
         );
     }
-
-    const CustomLegend = ({ payload }) => {
-        if (!payload) return null;
-
-        const top4 = [...payload].sort((a, b) => b.value - a.value).slice(0, 4);
-
-        return (
-            <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "15px", marginTop: "10px" }}>
-                {top4.map((entry, index) => (
-                    <div
-                        key={index}
-                        style={{
-                            display: "flex",
-                            alignItems: "center",
-                            fontSize: "0.85em",
-                            color: entry.color,
-                        }}
-                    >
-                        <div
-                            style={{
-                                width: 10,
-                                height: 10,
-                                borderRadius: "50%",
-                                backgroundColor: entry.color,
-                                marginRight: 6,
-                            }}
-                        />
-                        <span>{entry.payload.name}</span>
-                    </div>
-                ))}
-            </div>
-        );
-    };
 
     // ─── Render ────────────────────────────────────────────────
     return (
@@ -182,48 +138,18 @@ const Institution = () => {
                     <div className="charts-container">
                         <div className="chart-box">
                             <h3>Bajas por Capacitación</h3>
-                            <ResponsiveContainer width="100%" height={320}>
-                                <BarChart data={desertoresData}>
-                                    <XAxis
-                                        dataKey="name"
-                                        interval={0}
-                                        tick={{ fontSize: 10, fill: "#ccc" }}
-                                    />
-                                    <YAxis />
-                                    <Tooltip />
-                                    <Bar
-                                        dataKey="value"
-                                        label={{ position: "top", fill: "#ccc", fontSize: 12 }}
-                                    >
-                                        {desertoresData.map((_, index) => (
-                                            <Cell key={`bar-${index}`} fill={COLORS[index % COLORS.length]} />
-                                        ))}
-                                    </Bar>
-                                </BarChart>
-                            </ResponsiveContainer>
+                            <SimpleBarChart
+                                data={desertoresData}
+                                dataKey="value"
+                                nameKey="name"
+                                height={320}
+                                rotateTicks={false}
+                            />
                         </div>
 
                         <div className="chart-box">
                             <h3>Factores Predominantes</h3>
-                            <ResponsiveContainer width="100%" height={320}>
-                                <PieChart>
-                                    <Pie
-                                        data={pieCausasOrdenadas}
-                                        dataKey="value"
-                                        nameKey="name"
-                                        cx="50%"
-                                        cy="50%"
-                                        outerRadius={80}
-                                        label
-                                    >
-                                        {pieCausasOrdenadas.map((_, index) => (
-                                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                                        ))}
-                                    </Pie>
-                                    <Tooltip />
-                                    <Legend content={<CustomLegend />} />
-                                </PieChart>
-                            </ResponsiveContainer>
+                            <PieChartWithLegend data={pieCausasOrdenadas} outerRadius={80} />
                         </div>
                     </div>
 
