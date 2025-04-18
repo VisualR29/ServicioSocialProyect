@@ -33,6 +33,31 @@
   font-size: 1.1em;
 }
 
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+  color: #ccc;
+}
+
 /* ───── Sección con tarjetas ───── */
 .content {
   display: flex;
@@ -62,4 +87,85 @@
 /* ───── Alineación opcional ───── */
 .align-left {
   text-align: left;
+}
+
+/* ───── Utilidades de espaciado y ancho ───── */
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* ───── Contenedor centrado reutilizable ───── */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* ───── Responsividad global ───── */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .data-grid,
+  .charts-container,
+  .metrics-grid,
+  .accordion-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .data-card,
+  .chart-box,
+  .metric-card,
+  .accordion-item,
+  .recommendations,
+  .plan-considerations {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100% !important;
+    padding: 16px !important;
+  }
+
+  .turno-toggle {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
 }

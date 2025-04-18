@@ -34,3 +34,23 @@
     font-size: 1em;
     color: #9fb3ff;
 }
+
+@media (max-width: 1090px) and (min-width: 769px) {
+    .metrics-grid {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .metric-card {
+        width: 180px;
+        padding: 16px;
+    }
+
+    .metric-value {
+        font-size: 1.4em;
+    }
+
+    .metric-label {
+        font-size: 0.9em;
+    }
+}
